@@ -20,7 +20,7 @@ const steps = [
         icon: <BarChart3 size={32} />,
         title: "Get Actionable Insights",
         description: "Real-time summaries, sentiment, and AI-driven analytics.",
-        color: "#00C853"
+        color: "#B963AF"
     }
 ];
 

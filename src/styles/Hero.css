@@ -5,8 +5,8 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background: radial-gradient(circle at top right, rgba(106, 13, 173, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at bottom left, rgba(0, 123, 255, 0.05) 0%, transparent 40%);
+    background: radial-gradient(circle at top right, rgba(93, 16, 105, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at bottom left, rgba(185, 99, 175, 0.05) 0%, transparent 40%);
 }
 
 .hero-container {
@@ -25,7 +25,7 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 1rem;
-    background: rgba(0, 123, 255, 0.1);
+    background: rgba(147, 51, 145, 0.1);
     color: var(--color-primary);
     border-radius: var(--radius-full);
     font-weight: 600;
@@ -126,7 +126,8 @@
 .icon-3 {
     top: 10%;
     left: 20%;
-    background: #00C853;
+    background: #B963AF;
+    /* Orchid */
 }
 
 .hero-glow {
