@@ -67,11 +67,11 @@ const Benefits = () => {
                         {/* Abstract representation of voice vs text */}
                         <div className="comparison-chart">
                             <div className="chart-column text-column">
-                                <div className="column-bar" style={{ height: '40%' }}></div>
+                                <div className="column-bar" style={{ height: '25%' }}></div>
                                 <span>Text Forms</span>
                             </div>
                             <div className="chart-column voice-column">
-                                <div className="column-bar" style={{ height: '90%' }}>
+                                <div className="column-bar" style={{ height: '75%' }}>
                                     <div className="pulse-effect"></div>
                                 </div>
                                 <span>Voice</span>

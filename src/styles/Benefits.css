@@ -68,9 +68,9 @@
 
 .comparison-chart {
     display: flex;
-    align-items: flex-end;
+    align-items: stretch;
     gap: 3rem;
-    height: 200px;
+    height: 260px;
     width: 100%;
     justify-content: center;
 }
@@ -81,6 +81,7 @@
     align-items: center;
     gap: 1rem;
     width: 60px;
+    justify-content: flex-end;
 }
 
 .column-bar {
@@ -126,8 +127,8 @@
 
 .stat-overlay {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
     background: white;
     padding: 1rem;
     border-radius: var(--radius-md);
