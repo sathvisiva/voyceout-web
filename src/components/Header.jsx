@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Mic } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../assets/logo.svg';
 import '../styles/Header.css';
 
 const Header = () => {
@@ -16,12 +17,10 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+        <header className={`header ${isScrolled ? 'scrolled' : ''} `}>
             <div className="container header-container">
                 <div className="logo">
-                    <div className="logo-icon">
-                        <Mic size={24} color="white" />
-                    </div>
+                    <img src={logo} alt="Voyceout Logo" className="logo-icon" />
                     <span className="logo-text">Voyceout</span>
                 </div>
 

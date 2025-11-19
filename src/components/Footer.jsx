@@ -1,5 +1,6 @@
 import React from 'react';
-import { Mic, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import { Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import logo from '../assets/logo.svg';
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -9,9 +10,7 @@ const Footer = () => {
                 <div className="footer-top">
                     <div className="footer-brand">
                         <div className="logo">
-                            <div className="logo-icon">
-                                <Mic size={20} color="white" />
-                            </div>
+                            <img src={logo} alt="Voyceout Logo" className="logo-icon" />
                             <span className="logo-text">Voyceout</span>
                         </div>
                         <p className="footer-desc">
